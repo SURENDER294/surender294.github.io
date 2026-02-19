@@ -167,7 +167,7 @@ Saint Peter's University, Jersey City, NJ | May 2023 – Feb 2025
 
 ## Certifications
 
-- **NVIDIA Certified Professional: Agentic AI https://www.credly.com/badges/33e47b07-2312-4531-8f02-9b58635afb9d/public_url**
+- **NVIDIA Certified Professional: Agentic AI**
 - **DeepLearning.AI:** AI Agents in LangGraph
 - **DeepLearning.AI:** Multi AI Agent Systems with CrewAI
 
