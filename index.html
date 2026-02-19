@@ -19,7 +19,7 @@
         .gradient-text { background: linear-gradient(135deg, #60a5fa 0%, #c084fc 50%, #f472b6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .card-glow:hover { border-color: rgba(96, 165, 250, 0.5); box-shadow: 0 0 30px -10px rgba(96, 165, 250, 0.3); }
         .animate-blob { animation: blob 7s infinite; }
-        @keyframes blob { 
+        @keyframes blob {
             0% { transform: translate(0px, 0px) scale(1); }
             33% { transform: translate(30px, -50px) scale(1.1); }
             66% { transform: translate(-20px, 20px) scale(0.9); }
@@ -54,167 +54,165 @@
         <div class="absolute top-1/4 -left-20 w-96 h-96 bg-blue-600/20 rounded-full mix-blend-multiply filter blur-3xl animate-blob"></div>
         <div class="absolute top-1/3 -right-20 w-96 h-96 bg-purple-600/20 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-2000"></div>
         <div class="absolute bottom-1/4 left-1/2 w-96 h-96 bg-pink-600/10 rounded-full mix-blend-multiply filter blur-3xl animate-blob animation-delay-4000"></div>
-
+        
         <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
             <div data-aos="fade-up" data-aos-duration="1200">
-                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-xs font-bold uppercase tracking-widest mb-8">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-500/10 border border-blue-500/20 text-xs text-blue-400 font-bold mb-8">
                     <i data-lucide="shield-check" class="w-4 h-4"></i> NVIDIA Certified Agentic AI
                 </div>
                 <h1 class="text-6xl lg:text-8xl font-black tracking-tighter mb-8 leading-[0.9]">
                     Building <span class="gradient-text">Neural</span> Intelligence.
                 </h1>
                 <p class="text-xl text-slate-400 leading-relaxed mb-10 max-w-lg">
-                    AI Engineer architecting production-grade <span class="text-white font-semibold">Autonomous Agents</span>, <span class="text-white font-semibold">Multi-Agent RAG</span>, and scalable LLM ecosystems.
+                    AI Engineer architecting production-grade <span class="text-white font-semibold">Autonomous Agents</span>, <span class="text-white font-semibold">Reasoning Models (DeepSeek-R1/o1)</span>, and <span class="text-white font-semibold">Inference-optimized Pipelines</span>.
                 </p>
                 <div class="flex flex-wrap gap-5">
-                    <a href="#projects" class="flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-500 rounded-2xl font-bold transition-all transform hover:-translate-y-1 hover:shadow-xl hover:shadow-blue-600/20">
+                    <a href="#projects" class="flex items-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-500 rounded-2xl font-bold transition-all hover:scale-105 active:scale-95 shadow-xl shadow-blue-600/20">
                         View Repositories <i data-lucide="arrow-right" class="w-5 h-5"></i>
                     </a>
-                    <div class="flex items-center gap-4 bg-white/5 p-1 rounded-2xl border border-white/10">
-                        <a href="https://github.com/SURENDER294" class="p-3 hover:bg-white/10 rounded-xl transition-all" title="GitHub"><i data-lucide="github" class="w-6 h-6"></i></a>
-                        <a href="https://linkedin.com/in/mesur/" class="p-3 hover:bg-white/10 rounded-xl transition-all" title="LinkedIn"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
-                        <a href="https://leetcode.com/u/tiluVFIFP5/" class="p-3 hover:bg-white/10 rounded-xl transition-all" title="LeetCode"><i data-lucide="code" class="w-6 h-6"></i></a>
+                    <div class="flex items-center gap-4 px-6 py-4 glass rounded-2xl">
+                        <a href="https://github.com/SURENDER294" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="github" class="w-6 h-6"></i></a>
+                        <a href="https://linkedin.com/in/mesur/" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="linkedin" class="w-6 h-6"></i></a>
+                        <a href="https://leetcode.com/u/tiluVFIFP5/" class="text-slate-400 hover:text-white transition-colors"><i data-lucide="code-2" class="w-6 h-6"></i></a>
                     </div>
                 </div>
             </div>
             
-            <div class="hidden lg:block relative" data-aos="fade-left" data-aos-duration="1200">
-                <div class="glass p-8 rounded-[2.5rem] border-white/10 relative z-10">
-                    <div class="absolute -top-6 -right-6 w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center animate-pulse shadow-2xl shadow-blue-600/40">
-                        <i data-lucide="brain" class="w-8 h-8 text-white"></i>
+            <div data-aos="fade-left" data-aos-duration="1200" class="relative hidden md:block">
+                <div class="glass p-8 rounded-[2.5rem] border-white/10 shadow-2xl relative z-10">
+                    <div class="flex items-center gap-2 mb-8">
+                        <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
+                        <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
+                        <div class="w-3 h-3 rounded-full bg-green-500/50"></div>
                     </div>
-                    <div class="space-y-6">
-                        <div class="flex items-center gap-2">
-                            <div class="w-3 h-3 rounded-full bg-red-500/50"></div>
-                            <div class="w-3 h-3 rounded-full bg-yellow-500/50"></div>
-                            <div class="w-3 h-3 rounded-full bg-green-500/50"></div>
+                    <div class="space-y-6 mono">
+                        <div class="flex items-start gap-4">
+                            <span class="text-blue-500">#</span>
+                            <p class="text-blue-400">Current stack initialization</p>
                         </div>
-                        <div class="mono text-sm space-y-3 font-medium">
-                            <p class="text-blue-400"># Current stack initialization</p>
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="p-3 rounded-xl bg-white/5 border border-white/5">
-                                    <p class="text-xs text-slate-500 mb-1">Agents</p>
-                                    <p class="text-xs">LangGraph / CrewAI</p>
+                        <div class="bg-white/5 p-6 rounded-2xl border border-white/5">
+                            <div class="grid grid-cols-2 gap-8">
+                                <div>
+                                    <p class="text-xs text-slate-500 mb-2 uppercase tracking-widest">Agents</p>
+                                    <p class="text-sm font-bold">LangGraph / CrewAI</p>
                                 </div>
-                                <div class="p-3 rounded-xl bg-white/5 border border-white/5">
-                                    <p class="text-xs text-slate-500 mb-1">Compute</p>
-                                    <p class="text-xs">PyTorch / NVIDIA</p>
+                                <div>
+                                    <p class="text-xs text-slate-500 mb-2 uppercase tracking-widest">Compute</p>
+                                    <p class="text-sm font-bold">PyTorch / NVIDIA</p>
                                 </div>
                             </div>
-                            <p class="text-green-400">>> status: optimizing_inference...</p>
-                            <p class="text-slate-500 text-xs mt-4 italic">// Transforming data into intelligence</p>
                         </div>
+                        <div class="flex items-center gap-4 text-green-400">
+                            <span>>></span>
+                            <p class="animate-pulse">status: optimizing_inference...</p>
+                        </div>
+                        <p class="text-slate-500 text-sm">// Transforming data into intelligence</p>
                     </div>
                 </div>
-                <div class="absolute -inset-4 bg-gradient-to-r from-blue-500/20 to-purple-500/20 rounded-[3rem] blur-2xl z-0"></div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Grid -->
-    <section id="projects" class="py-32 bg-[#030712]">
+    <!-- Projects -->
+    <section id="projects" class="py-32">
         <div class="max-w-7xl mx-auto px-6">
-            <div class="max-w-3xl mb-20">
-                <h2 class="text-4xl md:text-5xl font-black tracking-tight mb-6" data-aos="fade-up">Production Grade <span class="text-blue-500">Engines.</span></h2>
-                <p class="text-slate-400 text-lg" data-aos="fade-up" data-aos-delay="100">End-to-end implementations of modern AI architectures, from scratch to scale.</p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="group card glass p-8 rounded-3xl border-white/5 hover:border-blue-500/30 transition-all duration-500" data-aos="fade-up">
-                    <div class="flex items-start justify-between mb-8">
-                        <div class="w-14 h-14 bg-blue-500/10 rounded-2xl flex items-center justify-center group-hover:bg-blue-500 group-hover:text-white transition-all duration-500">
-                            <i data-lucide="network" class="w-6 h-6"></i>
-                        </div>
-                        <a href="https://github.com/SURENDER294/Agentic-GenAI-Orchestrator" class="text-slate-600 hover:text-white transition-colors"><i data-lucide="github" class="w-6 h-6"></i></a>
+            <h2 class="text-4xl font-black mb-16" data-aos="fade-up">Production Grade <span class="text-blue-500">Engines.</span></h2>
+            <p class="text-slate-500 mb-16 max-w-2xl" data-aos="fade-up">End-to-end implementations of modern AI architectures, from scratch to scale.</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <a href="https://github.com/SURENDER294/Agentic-GenAI-Orchestrator" class="group glass p-8 rounded-[2rem] border-white/5 hover:border-blue-500/20 transition-all card-glow" data-aos="fade-up">
+                    <div class="w-14 h-14 bg-blue-600/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-blue-600 group-hover:text-white transition-all text-blue-500">
+                        <i data-lucide="network" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Agentic GenAI Orchestrator</h3>
-                    <p class="text-slate-400 text-sm mb-8 leading-relaxed">Multi-agent workflow engine with autonomous task delegation, persistent memory, and real-time tool execution.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Multi-agent workflow engine with autonomous task delegation, persistent memory, and real-time tool execution.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider">LangGraph</span>
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider text-blue-400 bg-blue-400/10">Agents</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">LangGraph</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">Agents</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="group card glass p-8 rounded-3xl border-white/5 hover:border-purple-500/30 transition-all duration-500" data-aos="fade-up" data-aos-delay="100">
-                    <div class="flex items-start justify-between mb-8">
-                        <div class="w-14 h-14 bg-purple-500/10 rounded-2xl flex items-center justify-center group-hover:bg-purple-500 group-hover:text-white transition-all duration-500">
-                            <i data-lucide="server" class="w-6 h-6"></i>
-                        </div>
-                        <a href="https://github.com/SURENDER294/Enterprise-GenAI-Production-Platform" class="text-slate-600 hover:text-white transition-colors"><i data-lucide="github" class="w-6 h-6"></i></a>
+                <!-- Project 2 -->
+                <a href="https://github.com/SURENDER294/Enterprise-GenAI-Production-Platform" class="group glass p-8 rounded-[2rem] border-white/5 hover:border-blue-500/20 transition-all card-glow" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-14 h-14 bg-purple-600/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-purple-600 group-hover:text-white transition-all text-purple-500">
+                        <i data-lucide="layout-grid" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">Enterprise Production Platform</h3>
-                    <p class="text-slate-400 text-sm mb-8 leading-relaxed">Production-ready AI ecosystem featuring LLM fine-tuning pipelines, RAG workflows, and computer vision MLOps.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">Production-ready AI ecosystem featuring LLM fine-tuning pipelines, RAG workflows, and computer vision MLOps.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider text-purple-400 bg-purple-400/10">MLOps</span>
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider text-purple-400 bg-purple-400/10">AWS</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">MLOps</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">AWS</span>
                     </div>
-                </div>
+                </a>
 
-                <div class="group card glass p-8 rounded-3xl border-white/5 hover:border-green-500/30 transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
-                    <div class="flex items-start justify-between mb-8">
-                        <div class="w-14 h-14 bg-green-500/10 rounded-2xl flex items-center justify-center group-hover:bg-green-500 group-hover:text-white transition-all duration-500">
-                            <i data-lucide="code-2" class="w-6 h-6"></i>
-                        </div>
-                        <a href="https://github.com/SURENDER294/rag-system-from-scratch" class="text-slate-600 hover:text-white transition-colors"><i data-lucide="github" class="w-6 h-6"></i></a>
+                <!-- Project 3 -->
+                <a href="https://github.com/SURENDER294/rag-system-from-scratch" class="group glass p-8 rounded-[2rem] border-white/5 hover:border-blue-500/20 transition-all card-glow" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-14 h-14 bg-pink-600/10 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-pink-600 group-hover:text-white transition-all text-pink-500">
+                        <i data-lucide="code" class="w-7 h-7"></i>
                     </div>
                     <h3 class="text-2xl font-bold mb-4">RAG Pipeline from Scratch</h3>
-                    <p class="text-slate-400 text-sm mb-8 leading-relaxed">No-abstraction implementation of a full RAG system in Python 3.8. Covers chunking, embedding, and vector search.</p>
+                    <p class="text-slate-400 text-sm leading-relaxed mb-8">No-abstraction implementation of a full RAG system in Python 3.8. Covers chunking, embedding, and vector search.</p>
                     <div class="flex flex-wrap gap-2">
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider text-green-400 bg-green-400/10">Algorithms</span>
-                        <span class="skill-chip px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider text-green-400 bg-green-400/10">Search</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">Algorithms</span>
+                        <span class="px-3 py-1 rounded-full bg-white/5 text-[10px] font-bold uppercase tracking-widest">Search</span>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </section>
 
-    <!-- Professional Skills -->
-    <section id="skills" class="py-32 bg-gray-950/30">
-        <div class="max-w-7xl mx-auto px-6 text-center">
-            <h2 class="text-4xl font-black mb-20" data-aos="fade-up">Technical <span class="text-blue-500">Ecosystem.</span></h2>
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 text-left">
-                <div data-aos="fade-up" class="space-y-6">
-                    <div class="flex items-center gap-3 text-blue-400 mb-2">
-                        <i data-lucide="bot"></i><h4 class="font-bold mono uppercase tracking-widest text-xs">Agentic AI</h4>
-                    </div>
-                    <ul class="space-y-3 text-sm text-slate-400 font-medium list-none">
-                        <li>LangGraph / CrewAI</li>
-                        <li>Multi-Agent Systems</li>
-                        <li>OpenAI / Bedrock</li>
-                        <li>Graph-Augmented RAG</li>
-                    </ul>
-                </div>
-                <div data-aos="fade-up" data-aos-delay="100" class="space-y-6">
-                    <div class="flex items-center gap-3 text-purple-400 mb-2">
-                        <i data-lucide="brain-circuit"></i><h4 class="font-bold mono uppercase tracking-widest text-xs">Core ML</h4>
+    <!-- Skills -->
+    <section id="skills" class="py-32 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-black mb-16 text-center" data-aos="fade-up">Technical <span class="text-blue-500">Ecosystem.</span></h2>
+            
+            <div class="grid md:grid-cols-4 gap-8" data-aos="fade-up">
+                <div>
+                    <div class="flex items-center gap-3 text-blue-500 mb-6 uppercase tracking-widest text-xs font-black">
+                        <i data-lucide="bot" class="w-5 h-5"></i> Agentic AI
                     </div>
                     <ul class="space-y-3 text-sm text-slate-400 font-medium">
-                        <li>PyTorch / TensorFlow</li>
-                        <li>Transformers / LLMs</li>
-                        <li>NLP / Text Analytics</li>
-                        <li>Inference Optimization</li>
+                        <li>LangGraph / CrewAI / Autogen</li>
+                        <li>Multi-Agent Orchestration</li>
+                        <li>Reasoning Models (DeepSeek/o1)</li>
+                        <li>Function Calling & Tool Use</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="200" class="space-y-6">
-                    <div class="flex items-center gap-3 text-pink-400 mb-2">
-                        <i data-lucide="layers"></i><h4 class="font-bold mono uppercase tracking-widest text-xs">Infrastructure</h4>
+
+                <div>
+                    <div class="flex items-center gap-3 text-blue-500 mb-6 uppercase tracking-widest text-xs font-black">
+                        <i data-lucide="zap" class="w-5 h-5"></i> Core ML
                     </div>
                     <ul class="space-y-3 text-sm text-slate-400 font-medium">
-                        <li>AWS / GCP / Azure</li>
-                        <li>Docker / Kubernetes</li>
-                        <li>Snowflake / SQL</li>
-                        <li>Pinecone / Vector DBs</li>
+                        <li>vLLM / TensorRT-LLM</li>
+                        <li>Fine-tuning (QLoRA / PEFT)</li>
+                        <li>Multimodal Architectures</li>
+                        <li>LLM Evaluation (RAGAS)</li>
                     </ul>
                 </div>
-                <div data-aos="fade-up" data-aos-delay="300" class="space-y-6">
-                    <div class="flex items-center gap-3 text-green-400 mb-2">
-                        <i data-lucide="terminal"></i><h4 class="font-bold mono uppercase tracking-widest text-xs">Software</h4>
+
+                <div>
+                    <div class="flex items-center gap-3 text-blue-500 mb-6 uppercase tracking-widest text-xs font-black">
+                        <i data-lucide="layers" class="w-5 h-5"></i> Infrastructure
                     </div>
                     <ul class="space-y-3 text-sm text-slate-400 font-medium">
-                        <li>Python / C++ / Bash</li>
-                        <li>FastAPI / REST APIs</li>
-                        <li>MLOps / CI / CD</li>
-                        <li>Distributed Training</li>
+                        <li>AWS / Azure / GCP</li>
+                        <li>Vector DBs (Pinecone/Milvus)</li>
+                        <li>Kubernetes Orchestration</li>
+                        <li>Snowflake / Data Lakes</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <div class="flex items-center gap-3 text-blue-500 mb-6 uppercase tracking-widest text-xs font-black">
+                        <i data-lucide="terminal" class="w-5 h-5"></i> Software
+                    </div>
+                    <ul class="space-y-3 text-sm text-slate-400 font-medium">
+                        <li>Python / C++ / Scalable APIs</li>
+                        <li>MLOps / CI / CD Pipelines</li>
+                        <li>Distributed Training (DeepSpeed)</li>
+                        <li>Advanced Prompt Engineering</li>
                     </ul>
                 </div>
             </div>
@@ -249,8 +247,9 @@
             <h2 class="text-5xl md:text-7xl font-black tracking-tighter mb-12" data-aos="fade-up">Let's Build <span class="gradient-text">Neural</span> Apps.</h2>
             <div class="flex flex-col md:flex-row items-center justify-center gap-12 mb-20" data-aos="fade-up" data-aos-delay="100">
                 <a href="mailto:surenn.aai@gmail.com" class="text-3xl font-black hover:text-blue-500 transition-colors tracking-tight underline decoration-white/10">surenn.aai@gmail.com</a>
-                <span class="text-slate-500 font-bold flex items-center gap-2"><i data-lucide="map-pin"></i> Metuchen, NJ</span>
+                <span class="text-slate-500 font-bold flex items-center gap-2"><i data-lucide="map-pin"></i> United States</span>
             </div>
+            
             <div class="pt-16 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 opacity-40 text-xs font-bold tracking-widest uppercase">
                 <p>© 2026 SURENDER REDDY • AI ENGINEERING</p>
                 <div class="flex items-center gap-10">
